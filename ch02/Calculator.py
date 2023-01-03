@@ -1,0 +1,10 @@
+a = int(input("첫 번째 숫자: ")) #input 함수는 문자열로 입력받으므로 숫자 계산을 해주기 위해서는 int형으로 형변환 해야 함
+b = int(input("두 번째 숫자: "))
+result = a + b
+print(a, "+", b, "=", result)
+result = a-b
+print(a, "-", b, "=", result)
+result = a*b
+print(a, "*", b, "=", result)
+result = a/b
+print(a, "/", b, "=", result)
